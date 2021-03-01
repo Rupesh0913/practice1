@@ -6,14 +6,14 @@ function Navbar(){
             <div class="container">
                 <div class="row">
                     <nav>
-                        < a href="#">LANDKIT</a>
+                        < a href="#" id="title">LANDKIT.</a>
                         <ul>
                             <li><a href="#">Landings</a></li>
                             <li><a href="#">Pages</a></li>
                             <li><a href="#">Account</a></li>
                             <li><a href="#">Documentation</a></li>
                         </ul>
-                        <button>BUY NOW</button>
+                        <button id="button">BUY NOW</button>
                     </nav>
                 </div>
             </div>

@@ -10,17 +10,43 @@ nav{
     box-align: center;
 }
 .container{
-    --bs-gutter-x:300px;
+    --bs-gutter-x:250px;
     padding-left:calc(var(--bs-gutter-x)/2);
     padding-right:calc(var(--bs-gutter-x)/2);
     margin-left: auto;
     margin-right: auto; 
+    margin-top: 30px;
+}
+#title{
+    font-family: 'Akaya Telivigala', cursive;
+    text-decoration:none;
+    font-size: x-large;
+    font-weight: bolder;
 }
 ul{
     display:flex;
     list-style-type: none;
 }
 ul li a{
-    padding-left:60px;
+    padding:8px 24px;
+   /*  padding-left:60px; */
     text-decoration: none;
+    color:#506690;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold
+}
+#button{
+    padding:15px;
+    background-color:#335EEA;
+    color:white;
+    border-radius:5px;
+    border:none;
+    font-weight: bolder;
+    transition:.5s ease-in-out;
+}
+#button:hover{
+    box-shadow: 0px .25px 15px black;
+    transform:translate3d(0, -3px, 0);
+    transition: .3s ease-in-out;
+
 }
