@@ -1,0 +1,26 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-align: center;
+}
+.container{
+    --bs-gutter-x:300px;
+    padding-left:calc(var(--bs-gutter-x)/2);
+    padding-right:calc(var(--bs-gutter-x)/2);
+    margin-left: auto;
+    margin-right: auto; 
+}
+ul{
+    display:flex;
+    list-style-type: none;
+}
+ul li a{
+    padding-left:60px;
+    text-decoration: none;
+}
